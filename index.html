@@ -1,124 +1,118 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Lexxy Luxury Massage Spa | Premium Wellness in Nairobi</title>
-    <meta name="description" content="Escape to Lexxy Luxury Massage Spa for premium deep tissue, Swedish, and hot stone massages in a serene, luxurious environment.">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Lexxy Luxury Massage Spa | Premium Wellness in Nairobi</title>
+<meta content="Escape to Lexxy Luxury Massage Spa for premium deep tissue, Swedish, and hot stone massages in a serene, luxurious environment." name="description"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&amp;family=Montserrat:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-    <nav class="navbar" id="navbar"><div class="nav-container">
-        <a href="#home" class="nav-logo">LEXXY <span class="accent">SPA</span></a>
-        <ul class="nav-links" id="navLinks"><li><a href="#home" class="nav-link active">Home</a></li><li><a href="#about" class="nav-link">About</a></li><li><a href="#treatments" class="nav-link">Treatments</a></li><li><a href="#booking" class="nav-link">Book</a></li></ul>
-        <a href="#booking" class="nav-cta">Book Session</a>
-        <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
-    </div></nav>
-
-    <header id="home" class="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-content">
-            <span class="hero-badge">A Sanctuary of Wellness</span>
-            <h1>Rejuvenate Your<br>Mind & <span class="accent">Body.</span></h1>
-            <p class="hero-sub">Experience the ultimate relaxation with our premium massage and wellness therapies tailored specifically for you.</p>
-            <div class="hero-actions">
-                <a href="#treatments" class="btn btn-primary">Our Treatments</a>
-                <a href="#booking" class="btn btn-outline">Schedule Visit</a>
-            </div>
-        </div>
-    </header>
-
-    <section id="about" class="section about-section">
-        <div class="container"><div class="about-grid">
-            <div class="about-text">
-                <span class="tag">About Us</span>
-                <h2>Find Your Inner Peace</h2>
-                <p>At Lexxy Luxury Massage Spa, we believe that true wellness is achieved when the mind, body, and spirit are in perfect harmony.</p>
-                <p>Our highly trained therapists utilize ancient healing techniques blended with modern practices to melt away stress, relieve tension, and restore your natural balance.</p>
-                <div class="features">
-                    <div class="feature-item"><h4>Serene Environment</h4><p>Calm lighting and soothing acoustics.</p></div>
-                    <div class="feature-item"><h4>Expert Therapists</h4><p>Certified, experienced professionals.</p></div>
-                </div>
-            </div>
-            <div class="about-img">Spa Ambience</div>
-        </div></div>
-    </section>
-
-    <section id="treatments" class="section bg-light">
-        <div class="container">
-            <div class="section-header"><span class="tag">Services</span><h2>Curated Treatments</h2><p>Select from our range of therapeutic and relaxing massage services.</p></div>
-            <div class="treatment-grid">
-                <div class="treatment-card">
-                    <div class="t-img img-1">Swedish</div>
-                    <div class="t-content">
-                        <h3>Swedish Relaxation</h3>
-                        <p>Long, flowing strokes to ease muscle tension, improve circulation, and promote profound relaxation.</p>
-                        <div class="t-meta"><span>60 / 90 Min</span> <button class="btn-text" onclick="bookSvc('Swedish Massage')">Book +</button></div>
-                    </div>
-                </div>
-                <div class="treatment-card featured">
-                    <div class="t-badge">Signature</div>
-                    <div class="t-img img-2">Deep Tissue</div>
-                    <div class="t-content">
-                        <h3>Deep Tissue Therapy</h3>
-                        <p>Targeted pressure focusing on the deepest layers of muscle tissue to relieve chronic aches and pain.</p>
-                        <div class="t-meta"><span>60 / 90 Min</span> <button class="btn-text" onclick="bookSvc('Deep Tissue Therapy')">Book +</button></div>
-                    </div>
-                </div>
-                <div class="treatment-card">
-                    <div class="t-img img-3">Hot Stone</div>
-                    <div class="t-content">
-                        <h3>Hot Stone Massage</h3>
-                        <p>Smooth, heated stones are placed on specific parts of the body to warm and loosen tight muscles.</p>
-                        <div class="t-meta"><span>90 Min</span> <button class="btn-text" onclick="bookSvc('Hot Stone Massage')">Book +</button></div>
-                    </div>
-                </div>
-                <div class="treatment-card">
-                    <div class="t-img img-4">Couples</div>
-                    <div class="t-content">
-                        <h3>Couples Retreat</h3>
-                        <p>Share a relaxing experience with a partner in our exclusive VIP dual-massage suite.</p>
-                        <div class="t-meta"><span>60 / 90 Min</span> <button class="btn-text" onclick="bookSvc('Couples Retreat')">Book +</button></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="banner">
-        <div class="container">
-            <h2>Give the Gift of <span class="accent">Relaxation</span></h2>
-            <p>Purchase a Lexxy Spa Gift Card for someone special today.</p>
-            <a href="https://wa.me/254700000003" target="_blank" class="btn btn-outline">Inquire on WhatsApp</a>
-        </div>
-    </section>
-
-    <section id="booking" class="section booking-section">
-        <div class="container"><div class="booking-wrap">
-            <div class="booking-form-box">
-                <div class="section-header left"><h2>Request an Appointment</h2><p>Please fill out the form below. Our spa concierge will contact you to confirm availability.</p></div>
-                <form id="bookingForm">
-                    <div class="form-row"><div class="form-group"><label>Full Name</label><input type="text" name="name" required></div><div class="form-group"><label>Phone Number</label><input type="tel" name="phone" required></div></div>
-                    <div class="form-row"><div class="form-group"><label>Treatment</label><select name="service" id="svcSelect" required><option value="">Choose Treatment...</option><option>Swedish Massage</option><option>Deep Tissue Therapy</option><option>Hot Stone Massage</option><option>Couples Retreat</option><option>Aromatherapy</option></select></div><div class="form-group"><label>Duration</label><select name="duration"><option>60 Minutes</option><option>90 Minutes</option><option>120 Minutes</option></select></div></div>
-                    <div class="form-row"><div class="form-group"><label>Preferred Date</label><input type="date" name="date" required></div><div class="form-group"><label>Time</label><input type="time" name="time" required></div></div>
-                    <button type="submit" class="btn btn-primary btn-full">Submit Request</button>
-                </form>
-            </div>
-            <div class="booking-info">
-                <h3>Spa Policies</h3>
-                <div class="info-block"><h4>Arrival Time</h4><p>Please arrive 15 minutes before your scheduled appointment.</p></div>
-                <div class="info-block"><h4>Cancellations</h4><p>We require at least 24 hours notice for cancellations.</p></div>
-                <div class="info-block"><h4>Location</h4><p>📍 Kilimani, Nairobi<br>📞 +254 700 000 003<br>✉️ hello@lexxyspa.co.ke</p></div>
-            </div>
-        </div></div>
-    </section>
-
-    <footer class="footer"><div class="container">
-        <div class="f-logo">LEXXY <span class="accent">SPA</span></div>
-        <p>© 2024 Lexxy Luxury Massage Spa. All rights reserved.</p>
-        <a href="admin.html" class="admin-link">Admin Portal</a>
-    </div></footer>
-
-    <div class="toast" id="toast"></div>
-    <script src="script.js"></script>
+<nav class="navbar" id="navbar"><div class="nav-container">
+<a class="nav-logo" href="#home">LEXXY <span class="accent">SPA</span></a>
+<ul class="nav-links" id="navLinks"><li><a class="nav-link active" href="#home">Home</a></li><li><a class="nav-link" href="#about">About</a></li><li><a class="nav-link" href="#treatments">Treatments</a></li><li><a class="nav-link" href="#booking">Book</a></li></ul>
+<a class="nav-cta" href="#booking">Book Session</a>
+<button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+</div></nav>
+<header class="hero" id="home">
+<div class="hero-bg" style=" background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://loremflickr.com/1200/800/spa,massage,relax?lock=100') !important; background-size: cover !important; background-position: center !important;"></div>
+<div class="hero-content">
+<span class="hero-badge">A Sanctuary of Wellness</span>
+<h1>Rejuvenate Your<br/>Mind &amp; <span class="accent">Body.</span></h1>
+<p class="hero-sub">Experience the ultimate relaxation with our premium massage and wellness therapies tailored specifically for you.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#treatments">Our Treatments</a>
+<a class="btn btn-outline" href="#booking">Schedule Visit</a>
+</div>
+</div>
+</header>
+<section class="section about-section" id="about">
+<div class="container"><div class="about-grid">
+<div class="about-text">
+<span class="tag">About Us</span>
+<h2>Find Your Inner Peace</h2>
+<p>At Lexxy Luxury Massage Spa, we believe that true wellness is achieved when the mind, body, and spirit are in perfect harmony.</p>
+<p>Our highly trained therapists utilize ancient healing techniques blended with modern practices to melt away stress, relieve tension, and restore your natural balance.</p>
+<div class="features">
+<div class="feature-item"><h4>Serene Environment</h4><p>Calm lighting and soothing acoustics.</p></div>
+<div class="feature-item"><h4>Expert Therapists</h4><p>Certified, experienced professionals.</p></div>
+</div>
+</div>
+<div class="about-img">Spa Ambience</div>
+</div></div>
+</section>
+<section class="section bg-light" id="treatments">
+<div class="container">
+<div class="section-header"><span class="tag">Services</span><h2>Curated Treatments</h2><p>Select from our range of therapeutic and relaxing massage services.</p></div>
+<div class="treatment-grid">
+<div class="treatment-card">
+<div class="t-img img-1" style=" background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://loremflickr.com/800/600/Swedish?lock=1') !important; background-size: cover !important; background-position: center !important; color: white !important; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">Swedish</div>
+<div class="t-content">
+<h3>Swedish Relaxation</h3>
+<p>Long, flowing strokes to ease muscle tension, improve circulation, and promote profound relaxation.</p>
+<div class="t-meta"><span>60 / 90 Min</span> <button class="btn-text" onclick="bookSvc('Swedish Massage')">Book +</button></div>
+</div>
+</div>
+<div class="treatment-card featured">
+<div class="t-badge">Signature</div>
+<div class="t-img img-2" style=" background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://loremflickr.com/800/600/Deep,Tissue?lock=2') !important; background-size: cover !important; background-position: center !important; color: white !important; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">Deep Tissue</div>
+<div class="t-content">
+<h3>Deep Tissue Therapy</h3>
+<p>Targeted pressure focusing on the deepest layers of muscle tissue to relieve chronic aches and pain.</p>
+<div class="t-meta"><span>60 / 90 Min</span> <button class="btn-text" onclick="bookSvc('Deep Tissue Therapy')">Book +</button></div>
+</div>
+</div>
+<div class="treatment-card">
+<div class="t-img img-3" style=" background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://loremflickr.com/800/600/Hot,Stone?lock=3') !important; background-size: cover !important; background-position: center !important; color: white !important; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">Hot Stone</div>
+<div class="t-content">
+<h3>Hot Stone Massage</h3>
+<p>Smooth, heated stones are placed on specific parts of the body to warm and loosen tight muscles.</p>
+<div class="t-meta"><span>90 Min</span> <button class="btn-text" onclick="bookSvc('Hot Stone Massage')">Book +</button></div>
+</div>
+</div>
+<div class="treatment-card">
+<div class="t-img img-4" style=" background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://loremflickr.com/800/600/Couples?lock=4') !important; background-size: cover !important; background-position: center !important; color: white !important; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">Couples</div>
+<div class="t-content">
+<h3>Couples Retreat</h3>
+<p>Share a relaxing experience with a partner in our exclusive VIP dual-massage suite.</p>
+<div class="t-meta"><span>60 / 90 Min</span> <button class="btn-text" onclick="bookSvc('Couples Retreat')">Book +</button></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="banner">
+<div class="container">
+<h2>Give the Gift of <span class="accent">Relaxation</span></h2>
+<p>Purchase a Lexxy Spa Gift Card for someone special today.</p>
+<a class="btn btn-outline" href="https://wa.me/254700000003" target="_blank">Inquire on WhatsApp</a>
+</div>
+</section>
+<section class="section booking-section" id="booking">
+<div class="container"><div class="booking-wrap">
+<div class="booking-form-box">
+<div class="section-header left"><h2>Request an Appointment</h2><p>Please fill out the form below. Our spa concierge will contact you to confirm availability.</p></div>
+<form id="bookingForm">
+<div class="form-row"><div class="form-group"><label>Full Name</label><input name="name" required="" type="text"/></div><div class="form-group"><label>Phone Number</label><input name="phone" required="" type="tel"/></div></div>
+<div class="form-row"><div class="form-group"><label>Treatment</label><select id="svcSelect" name="service" required=""><option value="">Choose Treatment...</option><option>Swedish Massage</option><option>Deep Tissue Therapy</option><option>Hot Stone Massage</option><option>Couples Retreat</option><option>Aromatherapy</option></select></div><div class="form-group"><label>Duration</label><select name="duration"><option>60 Minutes</option><option>90 Minutes</option><option>120 Minutes</option></select></div></div>
+<div class="form-row"><div class="form-group"><label>Preferred Date</label><input name="date" required="" type="date"/></div><div class="form-group"><label>Time</label><input name="time" required="" type="time"/></div></div>
+<button class="btn btn-primary btn-full" type="submit">Submit Request</button>
+</form>
+</div>
+<div class="booking-info">
+<h3>Spa Policies</h3>
+<div class="info-block"><h4>Arrival Time</h4><p>Please arrive 15 minutes before your scheduled appointment.</p></div>
+<div class="info-block"><h4>Cancellations</h4><p>We require at least 24 hours notice for cancellations.</p></div>
+<div class="info-block"><h4>Location</h4><p>📍 Kilimani, Nairobi<br/>📞 +254 700 000 003<br/>✉️ hello@lexxyspa.co.ke</p></div>
+</div>
+</div></div>
+</section>
+<footer class="footer"><div class="container">
+<div class="f-logo">LEXXY <span class="accent">SPA</span></div>
+<p>© 2024 Lexxy Luxury Massage Spa. All rights reserved.</p>
+<a class="admin-link" href="admin.html">Admin Portal</a>
+</div></footer>
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
 </body></html>
